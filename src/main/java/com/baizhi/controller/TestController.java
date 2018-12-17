@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.List;
-
 @Controller
 @RequestMapping("/test")
 public class TestController {
@@ -18,6 +17,7 @@ public class TestController {
     @RequestMapping("/queryAll")
     @ResponseBody
     public List<Test> queryAll() {
+        System.out.println("111111111111111111111");
         List<Test> list = testMappper.selectAll();
         return list;
     }
