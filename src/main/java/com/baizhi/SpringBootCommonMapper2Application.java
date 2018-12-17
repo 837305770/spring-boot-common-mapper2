@@ -7,12 +7,8 @@ import tk.mybatis.spring.annotation.MapperScan;
 @MapperScan("com.baizhi.mapper")
 @SpringBootApplication
 public class SpringBootCommonMapper2Application {
-
-
     public static void main(String[] args) {
-        System.out.println("2222222222222222222");
         SpringApplication.run(SpringBootCommonMapper2Application.class, args);
-        System.out.println("awdadawdwda");
     }
 
 }
